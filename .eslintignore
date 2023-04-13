@@ -3,3 +3,7 @@ dist/
 .prettierrc.js
 .eslintrc.js
 env.d.ts
+
+postcss.config.js
+tailwind.config.js
+vite.config.ts
