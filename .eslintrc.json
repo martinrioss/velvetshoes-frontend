@@ -43,6 +43,12 @@
         "prettier"
     ],
     "rules": {
+        "import/newline-after-import": [
+            "error",
+            {
+                "count": 2
+            }
+        ],
         "react/jsx-tag-spacing": [
             "warn",
             {
