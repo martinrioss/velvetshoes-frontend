@@ -1,17 +1,20 @@
-import { createBrowserRouter } from "react-router-dom";
-import Layout from "../layout/Layout";
-import Home from "../components/Home";
-const indexRoutes=createBrowserRouter([
-    {
-        path:'/',
-        element:<Layout/>,
-        children:[
-            {
-                path:'/',
-                element:<Home/>
-            }
-        ]
-    }
-])
+import { createBrowserRouter } from 'react-router-dom';
 
-export default indexRoutes
+import Home from '../components/Home';
+import Layout from '../layout/Layout';
+
+
+const indexRoutes = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout/>,
+    children: [
+      {
+        path: '/',
+        element: <Home/>
+      }
+    ]
+  }
+]);
+
+export default indexRoutes;
