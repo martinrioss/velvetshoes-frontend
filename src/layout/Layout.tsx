@@ -2,14 +2,14 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 
 import Footer from './Footer';
-import Nav from './Nav';
+import Header from './Header';
 
 
 
 export default function Layout() {
   return (
     <>
-      <Nav/>
+      <Header/>
       <Outlet/>
       <Footer/>
     </>
